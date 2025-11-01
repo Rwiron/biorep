@@ -8,10 +8,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           <a href="/" className="flex items-center space-x-2 md:space-x-3">
-            <svg className="w-8 h-8 md:w-9 md:h-9" viewBox="0 0 40 40" fill="none">
-              <rect width="40" height="40" rx="8" fill="#4e74d0"/>
-              <path d="M12 12h8c4 0 6 2 6 6s-2 6-6 6h-2v4h-6V12zm6 8h2c1.5 0 2-0.5 2-2s-0.5-2-2-2h-2v4z" fill="white"/>
-            </svg>
+            <img src="/bioreplogo.png" alt="Biorep Labs Logo" className="w-8 h-8 md:w-9 md:h-9 object-contain" />
             <span className="text-lg md:text-xl font-semibold text-gray-900 tracking-tight">Biorep Labs</span>
           </a>
 
