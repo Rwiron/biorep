@@ -1,4 +1,5 @@
 import ScrollAnimation from './ScrollAnimation';
+import leaderImage from '../assets/image/Leader.png';
 
 export default function About() {
   return (
@@ -36,7 +37,7 @@ export default function About() {
               <div className="flex flex-col sm:flex-row items-start gap-6 md:gap-8">
                 <div className="w-24 h-24 sm:w-28 sm:h-28 flex-shrink-0 rounded-2xl overflow-hidden">
                   <img 
-                    src="/src/assets/image/Leader.png" 
+                    src={leaderImage} 
                     alt="Alex K. Mugengana, PhD"
                     className="w-full h-full object-cover"
                   />

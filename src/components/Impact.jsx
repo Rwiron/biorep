@@ -1,4 +1,5 @@
 import ScrollAnimation from './ScrollAnimation';
+import achieveImage from '../assets/image/achieve.jpeg';
 
 export default function Impact() {
   return (
@@ -74,7 +75,7 @@ export default function Impact() {
           {/* Large Image Card - Performance - spans 3 columns, 2 rows */}
           <div className="md:col-span-2 lg:col-span-3 md:row-span-2 lg:row-span-2 rounded-2xl md:rounded-3xl overflow-hidden hover:scale-[1.01] transition-transform relative">
             <img 
-              src="/src/assets/image/achieve.jpeg" 
+              src={achieveImage} 
               alt="Our performance achievement"
               className="w-full h-full object-cover"
             />
