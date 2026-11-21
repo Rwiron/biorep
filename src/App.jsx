@@ -1,30 +1,25 @@
-import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Partners from './components/Partners'
-import Impact from './components/Impact'
-import Stats from './components/Stats'
+import Challenge from './components/Challenge'
+import Research from './components/Research'
 import About from './components/About'
-import Research from './components/Services'
+import Insights from './components/Insights'
 import News from './components/News'
 import FAQs from './components/FAQs'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
 
+// The home page. The navbar and footer live in components/Layout.jsx.
 function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
+    <>
       <Hero />
-      <Partners />
-      <Impact />
-      <Stats />
-      <About />
+      <Challenge />
       <Research />
+      <About />
+      <Insights />
       <News />
       <FAQs />
       <Contact />
-      <Footer />
-    </div>
+    </>
   )
 }
 
